@@ -92,6 +92,7 @@
         "pin": "Fixează",
         "unpin": "Înlătură fixarea",
         "page_of": "Pagina {{x}} din {{y}}",
+        "backToSafety": "Înapoi în siguranță",
         "coords": "Coordonate",
         "expand-image": "Mărește imaginea",
         "remove-image": "Șterge imaginea",
@@ -271,6 +272,14 @@
     },
     "errors": {
         "no-delete-permission": "Nu ai permisiuni de ștergere pentru asta!",
+        "loading": {
+            "title": "Așteaptă, suntem pe caz",
+            "description": "Căutăm în prezent în baza noastră de date pentru a găsi informațiile pe care le-ai solicitat. Stai pe fază, le vom avea pentru tine în curând! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Hop! Ceva nu a mers bine",
+            "description": "Ne pare rău, pare că a apărut o problemă cu solicitarea ta. Te rugăm să contactezi dezvoltatorul pentru asistență."
+        },
         "unexpected-error": {
             "title": "Eroare neașteptată",
             "description": "Ceva nu a mers bine, te rog contactează proprietarul serverului pentru a rezolva această problemă."
