@@ -92,6 +92,7 @@
         "pin": "Pin",
         "unpin": "Unpin",
         "page_of": "Page {{x}} of {{y}}",
+        "backToSafety": "Back to safety",
         "coords": "Coordinates",
         "expand-image": "Expand image",
         "remove-image": "Remove image",
@@ -271,6 +272,14 @@
     },
     "errors": {
         "no-delete-permission": "You don't have permissions to delete this!",
+        "loading": {
+            "title": "Hold on, we're on the case",
+            "description": "We're currently scouring our database to find the information you requested. Hang tight, we'll have it for you shortly! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Whoops! Something went wrong",
+            "description": "Sorry, it seems there's been a problem with your request. Please contact the developer for assistance."
+        },
         "unexpected-error": {
             "title": "Unexpected error",
             "description": "Something went wrong, please contact the server owner to solve this issue."
