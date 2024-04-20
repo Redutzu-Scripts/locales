@@ -345,7 +345,7 @@
             "information": "Můžete zobrazit a upravit informace o tomto incidentu"
         },
         "charge_list": {
-            "jail": "{{částka}} měsíců vězení",
+            "jail": "{{amount}} měsíců vězení",
             "fine": "{{amount}} fine",
             "reduction": {
                 "title": "Snížení poplatku",
@@ -354,7 +354,7 @@
             "mutual": "Přepnout na vzájemné snížení",
             "separate": "Přepnout na oddělené snížení",
             "reduce": "Snížit poplatek",
-            "charge_reduction": "{{částka}}% snížení poplatku",
+            "charge_reduction": "{{amount}}% snížení poplatku",
             "fine_reduction": "{{amount}}% fine reduction",
             "jail_reduction": "{{amount}}% jail reduction"
         },
@@ -403,7 +403,7 @@
         "individual": {
             "title": "Alert #{{id}}",
             "description": "Zobrazit všechny informace o tomto upozornění",
-            "vehicle-info": "(Deska: {{deska}} | Třída: {{class}} | Barva: {{color}} | Dveře: {{doors}})"
+            "vehicle-info": "(Deska: {{plate}} | Třída: {{class}} | Barva: {{color}} | Dveře: {{doors}})"
         },
         "delete": "Smazat hlášení",
         "position": "Nastavit pozici",
@@ -639,7 +639,7 @@
         "errors": {
             "required": "Toto pole je povinné",
             "create": "Nemáte oprávnění k vytvoření nového záznamu",
-            "min-length": "Toto pole musí mít alespoň {{délka}} znaků",
+            "min-length": "Toto pole musí mít alespoň {{length}} znaků",
             "min-number": "Minimální hodnota tohoto pole je {{min}}",
             "max-number": "Maximální hodnota pro toto pole je {{max}}",
             "invalid-link": "Musíte zadat platnou url adresu obrázku!",
@@ -689,7 +689,7 @@
             "licenses": "Udělené licence"
         },
         "description": {
-            "template": "Zobrazit a upravit {{slovo}} připojené k tomuto záznamu",
+            "template": "Zobrazit a upravit {{word}} připojené k tomuto záznamu",
             "licenses": "Zrušit a udělit licence tomuto občanovi",
             "citizen-weapon": "Zobrazit a upravit zbraně tohoto občana",
             "citizen-incident": "Zobrazit a upravit incidenty přiřazené tomuto občanovi",
