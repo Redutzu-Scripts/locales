@@ -147,7 +147,13 @@
         "driver": "Driver license",
         "weapon": "Weapon permit",
         "business": "Business license",
-        "hunting": "Hunting license"
+        "hunting": "Hunting license",
+        "drive_bike": "Motocycle license",
+        "drive_truck": "Commercial Drivers license",
+        "weed_processing": "Weed Processing license",
+        "dmv": "Dirving permit",
+        "boat": "Boat license",
+        "drive": "Drivers license"
     },
     "notification": {
         "error": "Oops! Something went wrong unexpectedly.",
@@ -268,6 +274,10 @@
         "reset-form": {
             "title": "Reset form",
             "description": "Are you sure you want to reset this form?"
+        },
+        "connect-camera": {
+            "title": "Connect to camera",
+            "description": "Are you sure you want to connect to this camera?"
         }
     },
     "errors": {
@@ -672,6 +682,7 @@
             "citizens": "citizens",
             "officers": "officers",
             "vehicles": "vehicles",
+            "incidents": "incidents",
             "evidences": "evidences",
             "charges": "charges",
             "evidence_archive": "evidences from the archive"
