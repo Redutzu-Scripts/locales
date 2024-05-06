@@ -102,6 +102,8 @@
         "submit": "Submit",
         "placeholders": {
             "citizens": "Search citizens",
+            "suspects": "Search suspects",
+            "victims": "Search victims",
             "officers": "Search officers",
             "vehicles": "Search vehicles",
             "incidents": "Search incidents",
@@ -201,6 +203,8 @@
             "title": "Are you sure about this?",
             "description": "This action cannot be undone. This will permanently delete the record from the database.",
             "citizen": "Are you sure you want to remove this citizen from this record?",
+            "suspect": "Are you sure you want to remove this suspect from this record?",
+            "victim": "Are you sure you want to remove this victim from this record?",
             "officer": "Are you sure you want to remove this officer from this record?",
             "vehicle": "Are you sure you want to remove this vehicle from this record?",
             "incident": "Are you sure you want to remove this incident from this record?",
@@ -691,6 +695,8 @@
     "values": {
         "title": {
             "citizen": "Citizens involved",
+            "suspect": "Suspects involved",
+            "victim": "Victims involved",
             "officer": "Officers involved",
             "vehicle": "Vehicles involved",
             "weapon": "Weapons",
@@ -714,6 +720,8 @@
             "citizen-house": "View properties tha this citizen owns",
             "words": {
                 "citizen": "citizens",
+                "suspect": "suspects",
+                "victim": "victims",
                 "officer": "officers",
                 "vehicle": "vehicles",
                 "weapon": "weapons",
@@ -724,6 +732,8 @@
         },
         "add": {
             "citizen": "Add a citizen",
+            "suspect": "Add a suspect",
+            "victim": "Add a victim",
             "officer": "Add an officer",
             "vehicle": "Add a vehicle",
             "incident": "Add an incident",
