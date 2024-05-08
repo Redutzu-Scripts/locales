@@ -102,6 +102,8 @@
         "submit": "Verzenden",
         "placeholders": {
             "citizens": "Zoek burgers",
+            "suspects": "Zoek verdachten",
+            "victims": "Zoek slachtoffers",
             "officers": "Zoek agenten",
             "vehicles": "Zoek voertuigen",
             "incidents": "Zoek incidenten",
@@ -147,7 +149,13 @@
         "driver": "Rijbewijs",
         "weapon": "Wapenvergunning",
         "business": "Bedrijfsvergunning",
-        "hunting": "Jachtvergunning"
+        "hunting": "Jachtvergunning",
+        "drive_bike": "Motor rijbewijs",
+        "drive_truck": "Vrachtwagen rijbewijs",
+        "weed_processing": "Vergunning softdrug sverwerking",
+        "dmv": "Rijbewijs",
+        "boat": "Vaarbewijs",
+        "drive": "Rijbewijs"
         },
         "notification": {
         "error": "Oeps! Er is onverwachts iets misgegaan.",
@@ -194,7 +202,9 @@
         "delete": {
             "title": "Weet je het zeker?",
             "description": "Deze actie kan niet ongedaan worden gemaakt. Dit zal het record permanent verwijderen uit de database.",
-            "citizen": "Weet je zeker dat je deze burger uit dit record wilt verwijderen?",
+            "citizen": "Weet u zeker dat u deze burger uit dit record wilt verwijderen?",
+            "suspect": "Weet u zeker dat u deze verdachte uit dit dossier wilt verwijderen?",
+            "victim": "Weet u zeker dat u dit slachtoffer uit dit record wilt verwijderen?",
             "officer": "Weet je zeker dat je deze medewerker uit dit record wilt verwijderen?",
             "vehicle": "Weet je zeker dat je dit voertuig uit dit record wilt verwijderen?",
             "incident": "Weet je zeker dat je dit incident uit dit record wilt verwijderen?",
@@ -268,6 +278,10 @@
         "reset-form": {
             "title": "Formulier resetten",
             "description": "Weet je zeker dat je dit formulier wilt resetten?"
+        },
+        "connect-camera": {
+            "title": "Verbinding maken met camera",
+            "description": "Weet je zeker dat je verbinding wilt maken met deze camera?"
         }
     },
     "errors": {
@@ -672,6 +686,7 @@
             "citizens": "burgers",
             "officers": "agenten",
             "vehicles": "voertuigen",
+            "incidents": "incidenten",
             "evidences": "bewijsstukken",
             "charges": "aanklachten",
             "evidence_archive": "bewijsstukken uit het archief"
@@ -703,6 +718,8 @@
             "citizen-house": "Bekijk eigendommen die eigendom zijn van deze burger",
             "words": {
             "citizen": "burgers",
+            "suspect": "verdachten",
+            "victim": "slachtoffers",
             "officer": "agenten",
             "vehicle": "voertuigen",
             "weapon": "wapens",
@@ -713,6 +730,8 @@
         },
         "add": {
             "citizen": "Voeg een burger toe",
+            "suspect": "Voeg een verdachte toe",
+            "victim": "Voeg een slachtoffer toe",
             "officer": "Voeg een agent toe",
             "vehicle": "Voeg een voertuig toe",
             "incident": "Voeg een incident toe",
