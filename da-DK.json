@@ -29,7 +29,7 @@
         "inactive": "Inaktiv",
         "information": "Information",
         "reason": "Årsag",
-        "navn": "Navn",
+        "name": "Navn",
         "description": "Beskrivelse",
         "job": "Job",
         "grade": "Karakter",
@@ -45,7 +45,7 @@
         "registeredTo": "Registreret til",
         "locatedAt": "Placeret ved {{street}}",
         "save": "Gem ændringer",
-        "pligt": "Pligt",
+        "duty": "Pligt",
         "on_duty": "På vagt",
         "off_duty": "Fritid",
         "search": "Søg",
@@ -60,7 +60,7 @@
         "gender": "Køn",
         "location": "Placering",
         "weapon": "Våben",
-        "fint": "Fint",
+        "fine": "Fint",
         "jail": "Fængsel",
         "vehicle": "Køretøj",
         "citizen": "Borger",
@@ -219,7 +219,7 @@
             "title": "Slet kamera",
             "description": "Er du sikker på, at du vil slette dette kamera?"
         },
-        "Tilføj værdi": {
+        "add-value": {
             "title": "Tilføj et nyt element",
             "description": "Tilføj et nyt element til listen."
         },
@@ -247,7 +247,7 @@
             "title": "Tilføj tilladelse",
             "description": "Tilføj en ny tilladelse til karakteren"
         },
-        "brandmedarbejder": {
+        "fire-employee": {
             "title": "Brandmedarbejder",
             "description": "Er du sikker på, at du vil fyre denne medarbejder?"
         },
@@ -282,7 +282,7 @@
     },
     "errors": {
         "no-delete-permission": "Du har ikke tilladelse til at slette dette!",
-        "Indlæser": {
+        "loading": {
             "title": "Hold op, vi er på sagen",
             "description": "Vi er i øjeblikket ved at gennemsøge vores database for at finde de oplysninger, du har bedt om. Hold nu fast, vi har det til dig snart! 🕵️‍♂️"
         },
@@ -290,7 +290,7 @@
             "title": "Ups! Noget gik galt",
             "description": "Beklager, det ser ud til, at der har været et problem med din anmodning. Kontakt venligst udvikleren for at få hjælp."
         },
-        "uforventet fejl": {
+        "unexpected-error": {
             "title": "Uventet fejl",
             "description": "Noget gik galt, kontakt venligst serverejeren for at løse dette problem."
         },
@@ -320,7 +320,7 @@
         "description": "{{grade}} | {{job}}",
         "live_location": "Live placering",
         "street_name": "Gadenavn:",
-        "personlig": {
+        "personal": {
             "title": "Personlige oplysninger",
             "description": "Dette er dine personlige oplysninger"
         },
@@ -329,7 +329,7 @@
             "description": "Søg efter hændelser, beviser, kendelser, boloer eller køretøjer af borgere",
             "no-results": "Skriv navnet på en borger for at finde hans hændelser, beviser, kendelser, boloer, køretøjer."
         },
-        "officerer": {
+        "officers": {
             "title": "Online betjente",
             "description": "Se alle online officerer og nyttige oplysninger"
         },
@@ -338,7 +338,7 @@
             "description": "Kommunikere med andre betjente gennem chatten",
             "placeholder": "Skriv en besked..."
         },
-        "opkald": {
+        "calls": {
             "title": "Seneste opkald",
             "description": "Her vil du se de seneste advarsler",
             "no-alerts": "Der er ingen advarsler i øjeblikket, når de vises vil du se en liste her",
@@ -349,7 +349,7 @@
     "incidents": {
         "title": "Hændelser",
         "description": "Se en liste over de seneste hændelser",
-        "individuel": {
+        "individual": {
             "title": "Hændelse #{{id}}",
             "description": "Se alle oplysninger om denne hændelse",
             "information": "Du kan se og redigere oplysningerne om denne hændelse"
@@ -357,7 +357,7 @@
         "charge_list": {
             "jail": "{{amount}} måneders fængsel",
             "fine": "{{amount}} bøde",
-            "reduktion": {
+            "reduction": {
                 "title": "Tillægsreduktion",
                 "description": "Du kan reducere mængden af ​​fængsel eller bøde"
             },
@@ -368,16 +368,16 @@
             "fine_reduction": "{{amount}} % bødenedsættelse",
             "jail_reduction": "{{amount}} % fængselsreduktion"
         },
-        "borgere": "borgere",
-        "officerer": "officerer",
-        "køretøjer": "køretøjer",
-        "beviser": "beviser",
+        "citizens": "borgere",
+        "officers": "officerer",
+        "vehicles": "køretøjer",
+        "evidences": "beviser",
         "charges": "charges"
     },
-    "beviser": {
+    "evidences": {
         "title": "Beviser",
         "description": "Se en liste over de seneste beviser",
-        "individuel": {
+        "individual": {
             "title": "Bevis #{{id}}",
             "description": "Se alle oplysninger om dette bevis",
             "information": "Du kan se og redigere oplysningerne om dette bevis"
@@ -386,13 +386,13 @@
     "warrants": {
         "title": "Warrants",
         "description": "Se en liste over de seneste warrants",
-        "individuel": {
+        "individual": {
             "title": "Bekendtgørelse nr. {{id}}",
             "description": "Se og rediger detaljer om denne garanti",
             "information": "Du kan se og ændre oplysningerne i denne kendelse"
         }
     },
-    "officerer": {
+    "officers": {
         "title": "Betjente",
         "description": "Se en liste over online-personer, der kan få adgang til MDT",
         "header": "{{job}} - {{length}} betjente online",
@@ -401,16 +401,16 @@
     "bolos": {
         "title": "BOLOs",
         "description": "Se en liste over de seneste BOLO'er",
-        "individuel": {
+        "individual": {
             "title": "BOLO #{{id}}",
             "description": "Se og rediger detaljer om denne BOLO",
             "information": "Du kan se og redigere oplysningerne om denne BOLO"
         }
     },
-    "afsendelse": {
+    "dispatch": {
         "title": "Afsendelse",
         "description": "Se, slet og modtag afsendelsesopkald",
-        "individuel": {
+        "individual": {
             "title": "Advarsel #{{id}}",
             "description": "Se alle oplysninger om denne advarsel",
             "vehicle-info": "(Plade: {{plade}} | Klasse: {{klasse}} | Farve: {{farve}} | Døre: {{døre}})"
@@ -421,12 +421,12 @@
             "title": "Advarsler",
             "description": "Se alle seneste opkald"
         },
-        "kort": {
+        "map": {
             "title": "Afsendelseskort",
             "description": "Se placeringen af ​​aktive alarmer"
         }
     },
-    "kameraer": {
+    "cameras": {
         "title": "Kameraer",
         "description": "Få adgang til alle kameraer i byen",
         "information": "Se denne medarbejders bodycam",
@@ -436,85 +436,85 @@
         "location": "Sidst kendte placering",
         "view-bodycam": "Se bodycam"
     },
-    "borgere": {
+    "citizens": {
         "title": "Borgere",
         "description": "Se alle registre og oplysninger om en borger",
         "register": "Registrer en borger",
         "grant-license": "Giv licens",
         "suspend-license": "Suspendér licens",
-        "individuel": {
+        "individual": {
             "title": "Borger",
             "description": "Se alle oplysninger om denne borger",
             "information": "Se alle nyttige oplysninger om denne borger"
         },
-        "resultater": {
+        "results": {
             "title": "Søg efter borgere",
             "description": "Du kan søge efter navn, fingeraftryk"
         }
     },
-    "køretøjer": {
+    "vehicles": {
         "title": "Køretøjer",
         "description": "Identificer ethvert køretøj ved registreringsnummer",
         "register": "Registrer et køretøj",
         "insurance-expiring": "udløber {{tid}}",
-        "individuel": {
+        "individual": {
             "title": "Køretøj",
             "description": "Se alle oplysninger om dette køretøj",
             "information": "Se alle oplysninger, der er relevante for dette køretøj"
         },
-        "resultater": {
+        "results": {
             "title": "Søg efter køretøjer",
             "description": "Du kan søge efter plade"
         }
     },
-    "huse": {
+    "houses": {
         "title": "Huse",
         "description": "Se nyttig information for hver ejendom",
-        "individuel": {
+        "individual": {
             "title": "Hus",
             "description": "Se alle oplysninger om dette hus",
             "information": "Se nyttige oplysninger om denne ejendom såsom beliggenhed"
         },
-        "resultater": {
+        "results": {
             "title": "Søg efter huse",
             "description": "Du kan søge på husnavn eller id"
         }
     },
-    "våben": {
+    "weapons": {
         "title": "Våben",
         "description": "Se og registrer våben for lettere identifikation",
         "register": "Registrer et våben",
-        "individuel": {
+        "individual": {
             "title": "Våben",
             "description": "Se alle oplysninger om dette våben",
             "information": "Se oplysningerne om dette våben samt serienummeret"
         },
-        "resultater": {
+        "results": {
             "title": "Søg efter våben",
             "description": "Du kan søge på navn, serienummer"
         }
     },
-    "koder": {
+    "codes": {
         "title": "Koder",
         "description": "Se en liste over koder, der bruges til kommunikation",
-        "individuel": {
+        "individual": {
             "title": "Kode #{{id}}",
             "description": "Se alle oplysninger om denne kode",
             "information": "Du kan se og redigere oplysningerne i denne kode"
         }
     },
-    "afgifter": {
+    "charges": {
         "title": "Afgifter",
         "description": "Se, opret, slet og rediger gebyrer",
         "fine": "Bødebeløb",
         "jail": "Fængselsbeløb",
-        "individuel": {
+        "individual": {
             "title": "Debitering nr. {{id}}",
             "description": "Se alle oplysninger om denne debitering",
             "information": "Du kan se og redigere oplysningerne om denne debitering"
         }
     },
-    "meddelelser": {
+    "announcements": {
         "title": "Meddelelser",
         "description": "Se, opret og fastgør meddelelser til andre betjente",
         "pin": "Pin-meddelelse",
@@ -522,21 +522,21 @@
         "save": "Gem meddelelse",
         "edit": "Rediger meddelelse",
         "written": "Skrevet af",
-        "individuel": {
+        "individual": {
             "title": "Meddelelse #{{id}}",
             "description": "Se alle oplysninger om denne meddelelse"
         }
     },
-    "konfiguration": {
+    "configuration": {
         "title": "Konfiguration",
         "description": "Tilpas MDT'en efter din smag",
-        "farver": {
+        "colors": {
             "title": "Farver",
             "description": "Skift udseendet af din MDT",
             "text": "Tekstfarver",
             "other": "Andre farver",
             "reset": "Nulstil farver",
-            "navn": {
+            "name": {
                 "background": "Baggrundsfarve",
                 "secondary": "Sekundær farve",
                 "text": "Tekstfarve",
@@ -547,7 +547,7 @@
                 "ring": "Ringfarve"
             }
         },
-        "Sprog": {
+        "language": {
             "title": "Sprog",
             "description": "Skift sproget på din MDT",
             "select": "Vælg dit foretrukne sprog"
@@ -572,29 +572,29 @@
             "add-permission": "Tilføj tilladelse",
             "update-permission": "Opdater tilladelser",
             "select-permission": "Vælg en tilladelse",
-            "karakterer": {
+            "grades": {
                 "title": "Karakter - {{level}}",
                 "description": "Karakterer fra \"{{job}}\"-jobbet",
                 "footer": "Dette inkluderer også tidligere tilladelser"
             }
         },
-        "medarbejdere": {
+        "employees": {
             "title": "Medarbejdere",
             "description": "En liste over alle online ansatte"
         },
-        "administrere": {
+        "manage": {
             "title": "Administrer \"{{name}}\"",
             "description": "Se flere oplysninger eller anvend handlinger på denne medarbejder",
             "fire": "Brandmedarbejder",
             "hire": "Lej borger",
             "change_rank": "Skift rang",
             "rank_select": "Vælg en rang",
-            "aktivitet": {
+            "activity": {
                 "title": "Aktivitet",
                 "description": "Se aktivitetsstatistik for denne medarbejder",
                 "chart": "Sidste 7 dage",
-                "bord": {
-                    "hoved": {
+                "table": {
+                    "head": {
                         "number": "Nej.",
                         "clock-in": "Clock-in",
                         "clock-out": "Clock-out",
@@ -603,25 +603,25 @@
                     "total": "Total timer"
                 }
             },
-            "midler": {
+            "funds": {
                 "header": "Samfundsfonde",
                 "footer": "indtægt fra bøder"
             },
-            "medarbejdere": {
+            "employees": {
                 "header": "Medarbejdere",
                 "footer": "samlet antal online ansatte"
             },
-            "opkald": {
+            "calls": {
                 "header": "Samlet antal opkald",
                 "footer": "aktive afsendelsesopkald"
             }
         },
-        "rekrutter": {
+        "recruits": {
             "description": "Se oplysninger om denne borger",
             "see": "Se borgerside"
         }
     },
-    "formularer": {
+    "forms": {
         "description": "Udfyld formularen med alle nødvendige oplysninger",
         "citizens": "Registrer en borger",
         "vehicles": "Registrer et køretøj",
@@ -641,12 +641,12 @@
             "field-description": "Tag beskrivelse",
             "field-color": "Tag farve",
             "button": "Opret nyt tag",
-            "meddelelse": {
+            "notification": {
                 "title": "Tag oprettet",
                 "description": "Du har oprettet tagget!"
             }
         },
-        "fejl": {
+        "errors": {
             "required": "Dette felt er påkrævet",
             "create": "Du har ikke tilladelse til at oprette en ny post",
             "min-length": "Dette felt skal indeholde mindst {{length}} tegn",
@@ -656,41 +656,43 @@
             "bolos": {
                 "citizen-vehicle-required": "Du skal vælge en borger eller et køretøj"
             },
-            "koder": {
+            "codes": {
                 "format": "Forkert format, du må kun bruge cifre"
             },
             "warrants": {
                 "citizen-house-required": "Du skal vælge en borger eller et hus"
             },
-            "beviser": {
+            "evidences": {
                 "fields-required": "Du skal tilføje en borger, betjent, køretøj eller våben"
             },
-            "afgifter": {
+            "charges": {
                 "fine-jail-required": "Du skal fastsætte en bøde eller fængselsbeløb"
             },
-            "kameraer": {
+            "cameras": {
                 "prop-required": "Du skal vælge en rekvisit, før du indstiller positionen"
             }
         }
     },
-    "autofuldførelse": {
+    "autocomplete": {
         "form": {
             "placeholder": "Du kan vælge {{n}} flere {{word}}",
             "maximum": "Du har valgt det maksimale beløb på {{word}}"
         },
-        "ord": {
-            "borgere": "borgere",
-            "officerer": "officerer",
-            "køretøjer": "køretøjer",
-            "hændelser": "hændelser",
-            "beviser": "beviser",
+        "words": {
+            "citizens": "borgere",
+            "officers": "officerer",
+            "vehicles": "køretøjer",
+            "incidents": "hændelser",
+            "evidences": "beviser",
             "charges": "afgifter",
             "evidence_archive": "beviser fra arkivet"
         }
     },
-    "værdier": {
+    "values": {
         "title": {
             "citizen": "Involverede borgere",
+            "suspect": "Suspects involved",
+            "victim": "Victims involved",
             "officer": "Betjente involveret",
             "vehicle": "Involverede køretøjer",
             "weapon": "Våben",
@@ -699,7 +701,7 @@
             "archive": "Arkiv filer",
             "licenses": "Bevilgede licenser"
         },
-        "beskrivelse": {
+        "description": {
             "template": "Se og rediger {{word}} knyttet til denne post",
             "licenses": "Tilbagekald og giv licenser til denne borger",
             "citizen-weapon": "Se og rediger denne borgers borgervåben",
@@ -712,18 +714,22 @@
             "vehicle-bolo": "Se og rediger boloer tildelt dette køretøj",
             "citizen-vehicle": "Se køretøjer, som denne borger ejer",
             "citizen-house": "Se ejendomme, som denne borger ejer",
-            "ord": {
-                "borger": "borgere",
+            "words": {
+                "citizen": "borgere",
+                "suspect": "suspects",
+                "victim": "victims",
                 "officer": "officerer",
                 "vehicle": "køretøjer",
-                "våben": "våben",
+                "weapon": "våben",
                 "evidence": "beviser",
                 "charge": "afgifter",
-                "arkiv": "arkiv filer"
+                "archive": "arkiv filer"
             }
         },
-        "tilføje": {
+        "add": {
             "citizen": "Tilføj en borger",
+            "suspect": "Add a suspect",
+            "victim": "Add a victim",
             "officer": "Tilføj en officer",
             "vehicle": "Tilføj et køretøj",
             "incident": "Tilføj en hændelse",
@@ -735,19 +741,19 @@
             "archive": "Tilføj en fil"
         }
     },
-    "galleri": {
+    "gallery": {
         "title": {
             "citizen": "Borgergalleri",
             "vehicle": "Køretøjsgalleri",
             "evidence": "Billeder"
         },
-        "beskrivelse": {
+        "description": {
             "citizen": "Se billeder med denne borger",
             "vehicle": "Se billeder med dette køretøj",
             "evidence": "Se billeder knyttet til dette bevis"
         }
     },
-    "tilladelser": {
+    "permissions": {
         "dashboard.view": {
             "label": "Se Dashboard-side",
             "description": "Tillader brugeren at se dashboard-siden"
