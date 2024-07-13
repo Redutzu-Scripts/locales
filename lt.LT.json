@@ -1,0 +1,1012 @@
+{
+    "navigation": {
+        "dashboard": "Skydelis",
+        "incidents": "Įvykiai",
+        "evidences": "Įrodymai",
+        "warrants": "Orderiai",
+        "officers": "Pareigūnai",
+        "bolos": "BOLOs",
+        "dispatch": "Dispečerinė",
+        "cameras": "Kameros",
+        "citizens": "Piliečiai",
+        "vehicles": "Transporto priemonės",
+        "houses": "Namai",
+        "weapons": "Ginklai",
+        "codes": "Kodai",
+        "charges": "Kaltinimai",
+        "announcements": "Pranešimai",
+        "config": "Konfigūracija",
+        "administration": "Administracija",
+        "exit": "Išeiti"
+    },
+    "general": {
+        "close": "Uždaryti",
+        "delete": "Ištrinti",
+        "male": "Vyras",
+        "female": "Moteris",
+        "status": "Statusas",
+        "active": "Aktyvus",
+        "inactive": "Neaktyvus",
+        "information": "Informacija",
+        "reason": "Priežastis",
+        "name": "Vardas",
+        "description": "Aprašymas",
+        "job": "Darbas",
+        "grade": "Laipsnis",
+        "callsign": "Šaukinys",
+        "phone_number": "Telefono Numeris",
+        "dateofbirth": "Gimimo Data",
+        "tag": "Tagas",
+        "house": "Namas",
+        "createdAt": "Sukurta",
+        "expiresIn": "Baigiasi po",
+        "startedAt": "Pradėta",
+        "startedOn": "Pradėta",
+        "registeredTo": "Registruotas",
+        "locatedAt": "Vieta: {{street}}",
+        "save": "Išsaugoti pakeitimus",
+        "duty": "Budėjimas",
+        "on_duty": "Budėjime",
+        "off_duty": "Ne budėjime",
+        "search": "Ieškoti",
+        "weapons": "Ginklai",
+        "incidents": "Įvykiai",
+        "evidences": "Įrodymai",
+        "warrants": "Orderiai",
+        "bolos": "BOLOs",
+        "vehicles": "Transporto priemonės",
+        "houses": "Nekilnojamas turtas",
+        "no-results": "Rezultatų nėra",
+        "gender": "Lytis",
+        "location": "Vieta",
+        "weapon": "Ginklas",
+        "fine": "Bauda",
+        "jail": "Kalinimas",
+        "vehicle": "Transporto priemonė",
+        "citizen": "Pilietis",
+        "title": "Pavadinimas",
+        "cancel": "Atšaukti",
+        "continue": "Tęsti",
+        "notes": "Pastabos",
+        "code": "Kodas",
+        "position": "Pozicija",
+        "firstname": "Vardas",
+        "lastname": "Pavardė",
+        "fingerprint": "Pirštų antspaudas",
+        "proceed": "Tęsti",
+        "plate": "Valstybinis numeris",
+        "model": "Modelis",
+        "insurance": "Draudimas",
+        "owner": "Savininkas",
+        "owned": "Savininkas",
+        "street": "Gatvė",
+        "prop": "Rekvizitas",
+        "none": "Nėra",
+        "no": "Ne",
+        "yes": "Taip",
+        "serial": "Serijos numeris",
+        "list": "Sąrašas",
+        "create": "Sukurti",
+        "camera": "Kamera",
+        "link": "Nuoroda",
+        "pin": "Prisegti",
+        "unpin": "Atsegti",
+        "page_of": "Puslapis {{x}} iš {{y}}",
+        "backToSafety": "Grįžti į saugumą",
+        "coords": "Koordinatės",
+        "expand-image": "Išplėsti vaizdą",
+        "remove-image": "Pašalinti vaizdą",
+        "zoomed-image": "Priartintas vaizdas",
+        "image-link": "Vaizdo nuoroda",
+        "image-description": "Vaizdo aprašymas",
+        "submit": "Pateikti",
+        "loading": "Kraunama..",
+        "wanted": "Ieškomas",
+        "placeholders": {
+        "citizens": "Ieškoti piliečių",
+        "suspects": "Ieškoti įtariamųjų",
+        "victims": "Ieškoti aukų",
+        "officers": "Ieškoti pareigūnų",
+        "vehicles": "Ieškoti transporto priemonių",
+        "incidents": "Ieškoti įvykių",
+        "evidences": "Ieškoti įrodymų",
+        "weapons": "Ieškoti ginklų",
+        "weapon": "Ieškoti ginklo",
+        "bolos": "Ieškoti BOLO",
+        "archive": "Ieškoti archyvo įrodymų",
+        "warrants": "Ieškoti orderių",
+        "charges": "Ieškoti kaltinimų",
+        "codes": "Ieškoti kodų",
+        "houses": "Ieškoti nekilnojamo turto",
+        "announcements": "Ieškoti pranešimų",
+        "recruits": "Ieškoti naujokų",
+        "citizen": "Ieškoti piliečio",
+        "vehicle": "Ieškoti transporto priemonės",
+        "owner": "Ieškoti savininko",
+        "identifier": "Ieškoti identifikatoriaus",
+        "house": "Ieškoti nekilnojamo turto",
+        "tag": "Ieškoti žymos",
+        "status": "Pasirinkti statusą",
+        "license": "Pasirinkti licenciją",
+        "date": "Pasirinkti datą",
+        "starting_date": "Pasirinkti pradžios datą",
+        "expiring_date": "Pasirinkti galiojimo pabaigos datą"
+        }
+    },
+    "templates": {
+        "incident": "Įvykis #{id}",
+        "evidence": "Įrodymas #{id}",
+        "warrant": "Orderis #{id}",
+        "bolo": "BOLO #{id}",
+        "vehicle": "{plate}"
+    },
+    "instructional": {
+        "press": "Paspauskite",
+        "exit": "kad išeitumėte"
+    },
+    "jobs": {
+        "police": "Teisėsauga"
+    },
+    "licenses": {
+        "driver": "Vairuotojo pažymėjimas",
+        "weapon": "Ginklo leidimas",
+        "business": "Verslo licencija",
+        "hunting": "Medžioklės licencija",
+        "drive_bike": "Motociklo pažymėjimas",
+        "drive_truck": "Komercinio vairuotojo pažymėjimas",
+        "weed_processing": "Kanapių perdirbimo licencija",
+        "dmv": "Vairavimo leidimas",
+        "boat": "Laivo licencija",
+        "drive": "Vairuotojo pažymėjimas"
+    },
+    "notification": {
+        "error": "Oi! Įvyko netikėta klaida.",
+        "create": "Jūs sėkmingai sukūrėte šį įrašą!",
+        "update": "Jūs sėkmingai atnaujinote šį įrašą!",
+        "camera-connect": "Jūs sėkmingai prisijungėte prie kameros!",
+        "bodycam-connect": "Jūs sėkmingai prisijungėte prie kūno kameros!",
+        "existent-citizen": "Buvo rastas pilietis su šiuo identifikatoriumi!",
+        "existent-vehicle": "Buvo rastas automobilis su šia registracijos numeriu!",
+        "registered-citizen": "Jūs sėkmingai užregistravote šį pilietį!",
+        "registered-vehicle": "Jūs sėkmingai užregistravote šį automobilį!",
+        "permission-changed": "Jūs sėkmingai pakeitėte šio lygio leidimus!",
+        "employee-fired": "Jūs sėkmingai atleidote šį darbuotoją!",
+        "employee-fire-error": "Jūs negalite atleisti aukštesnio rango ar savęs!",
+        "rank-changed": "Jūs sėkmingai pakeitėte šio darbuotojo rangą!",
+        "hire-citizen": "Jūs sėkmingai įdarbinote šį pilietį!",
+        "camera-created": "Jūs sėkmingai sukūrėte kamerą!",
+        "camera-deleted": "Jūs sėkmingai ištrynėte kamerą!",
+        "camera-toggled": "Jūs sėkmingai perjungėte kamerą!",
+        "image-attached": "Jūs pridėjote naują vaizdą prie įrašo",
+        "remove-image": "Jūs sėkmingai pašalinote vaizdą iš įrašo",
+        "title": {
+            "created": "Įrašas sukurtas",
+            "updated": "Įrašas atnaujintas",
+            "error": "Netikėta klaida",
+            "camera-connect": "Kamera prijungta",
+            "bodycam-connect": "Kūno kamera prijungta",
+            "existent-citizen": "Egzistuojantis pilietis",
+            "existent-vehicle": "Egzistuojantis automobilis",
+            "registered-citizen": "Pilietis užregistruotas",
+            "registered-vehicle": "Automobilis užregistruotas",
+            "permission-changed": "Leidimai pakeisti",
+            "employee-fired": "Darbuotojas atleistas",
+            "rank-changed": "Rangas pakeistas",
+            "hire-citizen": "Pilietis įdarbintas",
+            "camera-created": "Kamera sukurta",
+            "camera-deleted": "Kamera ištrinta",
+            "camera-toggled": "Kamera perjungta",
+            "image-attached": "Vaizdas pridėtas",
+            "remove-image": "Vaizdas pašalintas"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Ar tikrai?",
+            "description": "Šis veiksmas negali būti atšauktas. Tai nuolat pašalins įrašą iš duomenų bazės.",
+            "citizen": "Ar tikrai norite pašalinti šį pilietį iš šio įrašo?",
+            "suspect": "Ar tikrai norite pašalinti šį įtariamąjį iš šio įrašo?",
+            "victim": "Ar tikrai norite pašalinti šį auką iš šio įrašo?",
+            "officer": "Ar tikrai norite pašalinti šį pareigūną iš šio įrašo?",
+            "vehicle": "Ar tikrai norite pašalinti šį transporto priemonę iš šio įrašo?",
+            "incident": "Ar tikrai norite pašalinti šį įvykį iš šio įrašo?",
+            "evidence": "Ar tikrai norite pašalinti šį įrodymą iš šio įrašo?",
+            "warrant": "Ar tikrai norite pašalinti šį arešto orderį iš šio įrašo?",
+            "bolo": "Ar tikrai norite pašalinti šį BOLO iš šio įrašo?",
+            "charge": "Ar tikrai norite pašalinti šią kaltinimą iš šio įrašo?",
+            "weapon": "Ar tikrai norite pašalinti šią ginklą iš šio įrašo?",
+            "archive": "Ar tikrai norite pašalinti šį archyvą iš šio įrašo?"
+        },
+        "delete_alert": {
+            "title": "Ar tikrai norite ištrinti šį įspėjimą?",
+            "description": "Šis veiksmas negali būti atšauktas. Tai nuolat pašalins įspėjimą."
+        },
+        "delete-camera": {
+            "title": "Ištrinti kamerą",
+            "description": "Ar tikrai norite ištrinti šią kamerą?"
+        },
+        "add-value": {
+            "title": "Pridėti naują elementą",
+            "description": "Pridėti naują elementą į sąrašą."
+        },
+        "set_position": {
+            "title": "Ar norite nustatyti kontrolinę tašką?",
+            "description": "Tai nustatys jūsų MDT žemėlapio kontrolinį tašką į išsiųstos šios įspėjimo vietą."
+        },
+        "job": {
+            "title": "Pasirinkite darbą",
+            "description": "Galite pasirinkti darbą ir laipsnį šiam vartotojui"
+        },
+        "grant-license": {
+            "title": "Suteikti licenciją",
+            "description": "Pasirinkite licenciją, kurią norite suteikti piliečiui"
+        },
+        "suspend-license": {
+            "title": "Ar tikrai?",
+            "description": "Ar norite pašalinti šią licenciją iš šio piliečio"
+        },
+        "update-permission": {
+            "title": "Atnaujinti leidimus",
+            "description": "Pridėti arba pašalinti leidimus šiam laipsniui"
+        },
+        "add-permission": {
+            "title": "Pridėti leidimą",
+            "description": "Pridėkite naują leidimą šiam laipsniui"
+        },
+        "fire-employee": {
+            "title": "Atleisti darbuotoją",
+            "description": "Ar tikrai norite atleisti šį darbuotoją?"
+        },
+        "change-rank": {
+            "title": "Pakeisti laipsnį",
+            "description": "Pakeisti šio darbuotojo laipsnį"
+        },
+        "hire-citizen": {
+            "title": "Įdarbinti pilietį",
+            "description": "Ar tikrai norite įdarbinti šį pilietį?"
+        },
+        "add-image": {
+            "title": "Pridėti paveikslėlį",
+            "description": "Pridėkite naują paveikslėlį šiam įrašui"
+        },
+        "remove-image": {
+            "title": "Pašalinti paveikslėlį",
+            "description": "Ar norite pašalinti šį paveikslėlį iš įrašo?"
+        },
+        "change-image": {
+            "title": "Pakeisti paveikslėlį",
+            "description": "Pasirinkite naują profilio paveikslėlį iš galerijos"
+        },
+        "reset-form": {
+            "title": "Atstatyti formą",
+            "description": "Ar tikrai norite atstatyti šią formą?"
+        },
+        "connect-camera": {
+            "title": "Prisijungti prie kameros",
+            "description": "Ar tikrai norite prisijungti prie šios kameros?"
+        }
+    },
+        "errors": {
+            "no-delete-permission": "Jūs neturite teisės ištrinti šio elemento!",
+            "loading": {
+                "title": "Prašome palaukti, mes nagrinėjame",
+                "description": "Šiuo metu skenuojame mūsų duomenų bazę, kad surastume jums reikiamą informaciją. Palaikykite, greitai ją turėsime! 🕵️‍♂️"
+            },
+            "page-error": {
+                "title": "Oi, kažkas nutiko ne taip",
+                "description": "Atsiprašome, atrodo, buvo problema su jūsų užklausos vykdymu. Prašome susisiekti su kūrėju dėl pagalbos."
+            },
+            "unexpected-error": {
+                "title": "Netikėta klaida",
+                "description": "Kažkas nepavyko, prašome susisiekti su serverio savininku, kad būtų išspręsta ši problema."
+            },
+            "search-no-matched": {
+                "title": "Nieko nerasta",
+                "description": "Nerasta jokių rezultatų pagal užklausą: \"{{query}}\""
+            },
+            "fetching": {
+                "title": "Renkame rezultatus",
+                "description": "Prašome kantrybės, kol rinksime būtiną informaciją. Jūsų įvestis padės mums pateikti pritaikytus rezultatus."
+            },
+            "fetch-error": {
+                "title": "Oi, kažkas nutiko ne taip",
+                "description": "Atsiprašome, atrodo, buvo problema su jūsų užklausos vykdymu. Prašome susisiekti su kūrėju dėl pagalbos."
+            },
+            "fetch-no-results": {
+                "title": "Oi! Čia nieko nerasta",
+                "description": "Įveskite kažką, kad būtų rodomi rezultatai. Jūsų įvestis pritaikys tai, ką matysite."
+            },
+            "fetch-no-matched": {
+                "title": "Nesutampa jokie rezultatai",
+                "description": "Atrodo, mes negalėjome rasti jokių rezultatų, atitinkančių jūsų paieškos kriterijus."
+            }
+        },
+        "dashboard": {
+            "title": "Sveiki sugrįžę, {{name}}",
+            "description": "{{grade}} | {{job}}",
+            "live_location": "Gyva vieta",
+            "street_name": "Gatvės pavadinimas:",
+            "personal": {
+                "title": "Asmeninė informacija",
+                "description": "Tai jūsų asmeninė informacija"
+            },
+            "global_search": {
+                "title": "Globalus paieška",
+                "description": "Paieška įvykiuose, įrodymuose, arešto orderiuose, BOLO pranešimuose arba transporto priemonėse pagal piliečio vardą",
+                "no-results": "Įveskite piliečio vardą, kad rastumėte jo įvykius, įrodymus, arešto orderius, BOLO pranešimus ar transporto priemones."
+            },
+            "officers": {
+                "title": "Prisijungę pareigūnai",
+                "description": "Peržiūrėkite visus prisijungusius pareigūnus ir naudingą informaciją"
+            },
+            "chat": {
+                "title": "Pokalbis",
+                "description": "Bendraukite su kitais pareigūnais per pokalbį",
+                "placeholder": "Įveskite žinutę..."
+            },
+            "calls": {
+                "title": "Paskutiniai pranešimai",
+                "description": "Čia matysite naujausius pranešimus",
+                "no-alerts": "Šiuo metu nėra pranešimų, kai jie atsiras, jūs matysite sąrašą čia",
+                "details": "Spustelėkite pranešimą, norėdami pamatyti daugiau informacijos",
+                "time": "Išsiuntimo laikas"
+            }
+        },
+        "incidents": {
+            "title": "Įvykiai",
+            "description": "Peržiūrėkite naujausių įvykių sąrašą",
+            "individual": {
+                "title": "Įvykis #{{id}}",
+                "description": "Peržiūrėkite visą informaciją apie šį įvykį",
+                "information": "Galite peržiūrėti ir redaguoti šio įvykio informaciją"
+            },
+            "charge_list": {
+                "jail": "{{amount}} mėnesiai kalėjime",
+                "fine": "{{amount}} bauda",
+                "reduction": {
+                    "title": "Įvykio baudų sumažinimas",
+                    "description": "Galite sumažinti kalėjimo laiką ar baudą"
+                },
+                "mutual": "Pereiti prie bendro sumažinimo",
+                "separate": "Pereiti prie atskiro sumažinimo",
+                "reduce": "Sumažinti baudą",
+                "charge_reduction": "{{amount}}% sumažinimas",
+                "fine_reduction": "{{amount}}% baudos sumažinimas",
+                "jail_reduction": "{{amount}}% kalėjimo sumažinimas"
+            },
+            "citizens": "piliečiai",
+            "officers": "pareigūnai",
+            "vehicles": "transporto priemonės",
+            "evidences": "įrodymai",
+            "charges": "kaltinimai"
+        },
+        "evidences": {
+            "title": "Įrodymai",
+            "description": "Peržiūrėkite naujausių įrodymų sąrašą",
+            "individual": {
+                "title": "Įrodymas #{{id}}",
+                "description": "Peržiūrėkite visą informaciją apie šį įrodymą",
+                "information": "Galite peržiūrėti ir redaguoti šio įrodymo informaciją"
+            }
+        },
+        "warrants": {
+            "title": "Paieškos įsakai",
+            "description": "Peržiūrėkite naujausių paieškos įsakų sąrašą",
+            "individual": {
+                "title": "Paieškos įsakas #{{id}}",
+                "description": "Peržiūrėkite ir pakeiskite šio paieškos įsako detales",
+                "information": "Galite peržiūrėti ir keisti šio paieškos įsako informaciją"
+            }
+        },
+        "officers": {
+            "title": "Pareigūnai",
+            "description": "Peržiūrėkite sąrašą prisijungusių asmenų, turinčių prieigą prie MDT",
+            "header": "{{job}} - {{length}} prisijungę pareigūnai",
+            "paragraph": "Peržiūrėkite pareigūnus šioje pareigybėje"
+        },
+        "bolos": {
+            "title": "BOLO",
+            "description": "Peržiūrėkite naujausių BOLO sąrašą",
+            "individual": {
+                "title": "BOLO #{{id}}",
+                "description": "Peržiūrėkite ir pakeiskite šio BOLO detales",
+                "information": "Galite peržiūrėti ir redaguoti šio BOLO informaciją"
+            }
+        },
+        "dispatch": {
+            "title": "Siuntimas",
+            "description": "Peržiūrėkite, ištrinkite ir priimkite siuntimo skambučius",
+            "individual": {
+                "title": "Pranešimas #{{id}}",
+                "description": "Peržiūrėkite visą informaciją apie šį pranešimą",
+                "vehicle-info": "(Valst. nr.: {{plate}} | Klasė: {{class}} | Spalva: {{color}} | Durys: {{doors}})"
+            },
+            "delete": "Ištrinti pranešimą",
+            "position": "Nustatyti poziciją",
+            "alerts": {
+                "title": "Pranešimai",
+                "description": "Peržiūrėkite visus naujausius skambučius"
+            },
+            "map": {
+                "title": "Siuntimo žemėlapis",
+                "description": "Peržiūrėkite aktyvių pranešimų vietą"
+            }
+        },
+    "cameras": {
+        "title": "Kameros",
+        "description": "Pasiekite visas mieste esančias kameras",
+        "information": "Peržiūrėkite šio darbuotojo kūno kamerą",
+        "cctv": "CCTV",
+        "bodycams": "Kūno kameros",
+        "open": "Atidaryti kamerą",
+        "location": "Paskutinė žinoma vieta",
+        "view-bodycam": "Žiūrėti kūno kamerą"
+    },
+    "citizens": {
+        "title": "Piliečiai",
+        "description": "Peržiūrėkite visus piliečio įrašus ir informaciją",
+        "register": "Registruoti pilietį",
+        "grant-license": "Suteikti licenciją",
+        "suspend-license": "Suspenduoti licenciją",
+        "individual": {
+            "title": "Pilietis",
+            "description": "Peržiūrėkite visą informaciją apie šį pilietį",
+            "information": "Peržiūrėkite visą naudingą informaciją apie šį pilietį"
+        },
+        "results": {
+            "title": "Ieškoti piliečių",
+            "description": "Galite ieškoti pagal vardą, pirštų antspaudą"
+        }
+    },
+    "vehicles": {
+        "title": "Transporto priemonės",
+        "description": "Nustatyti bet kurią transporto priemonę pagal registracijos numerį",
+        "register": "Registruoti transporto priemonę",
+        "insurance-expiring": "baigiasi {{time}}",
+        "individual": {
+            "title": "Transporto priemonė",
+            "description": "Peržiūrėkite visą informaciją apie šią transporto priemonę",
+            "information": "Peržiūrėkite visą šios transporto priemonės informaciją"
+        },
+        "results": {
+            "title": "Ieškoti transporto priemonių",
+            "description": "Galite ieškoti pagal numerį"
+        }
+    },
+    "houses": {
+        "title": "Nekilnojamasis turtas",
+        "description": "Peržiūrėkite naudingą informaciją apie kiekvieną nuosavybę",
+        "individual": {
+            "title": "Namas",
+            "description": "Peržiūrėkite visą informaciją apie šį namą",
+            "information": "Peržiūrėkite naudingą informaciją apie šią nuosavybę, tokia kaip vieta"
+        },
+        "results": {
+            "title": "Ieškoti namų",
+            "description": "Galite ieškoti pagal namo pavadinimą arba ID"
+        }
+    },
+    "weapons": {
+        "title": "Ginklai",
+        "description": "Peržiūrėti ir registruoti ginklus, kad būtų lengviau juos identifikuoti",
+        "register": "Registruoti ginklą",
+        "individual": {
+            "title": "Ginklas",
+            "description": "Peržiūrėkite visą informaciją apie šį ginklą",
+            "information": "Peržiūrėkite šio ginklo informaciją bei serijinį numerį"
+        },
+        "results": {
+            "title": "Ieškoti ginklų",
+            "description": "Galite ieškoti pagal pavadinimą, serijinį numerį"
+        }
+    },
+    "codes": {
+        "title": "Kodai",
+        "description": "Peržiūrėti sąrašą kodų, naudojamų komunikacijai",
+        "individual": {
+            "title": "Kodas #{{id}}",
+            "description": "Peržiūrėkite visą informaciją apie šį kodą",
+            "information": "Galite peržiūrėti ir redaguoti šio kodo informaciją"
+        }
+    },
+    "charges": {
+        "title": "Kaltinimai",
+        "description": "Peržiūrėti, kurti, ištrinti ir redaguoti kaltinimus",
+        "fine": "Bausti suma",
+        "jail": "Kalėjimo laikotarpis",
+        "individual": {
+            "title": "Kaltinimas #{{id}}",
+            "description": "Peržiūrėkite visą informaciją apie šį kaltinimą",
+            "information": "Galite peržiūrėti ir redaguoti šio kaltinimo informaciją"
+        }
+    },
+    "announcements": {
+        "title": "Pranešimai",
+        "description": "Peržiūrėti, kurti ir pritvirtinti pranešimus kitiems pareigūnams",
+        "pin": "Pritvirtinti pranešimą",
+        "unpin": "Atleisti pranešimą",
+        "save": "Išsaugoti pranešimą",
+        "edit": "Redaguoti pranešimą",
+        "written": "Parašė",
+        "individual": {
+            "title": "Pranešimas #{{id}}",
+            "description": "Peržiūrėti visą informaciją apie šį pranešimą"
+        }
+    },
+    "configuration": {
+        "title": "Konfigūracija",
+        "description": "Prisitaikykite MDT pagal savo poreikius",
+        "colors": {
+            "title": "Spalvos",
+            "description": "Pakeiskite MDT išvaizdą",
+            "text": "Teksto spalvos",
+            "other": "Kitos spalvos",
+            "reset": "Atstatyti spalvas",
+            "name": {
+                "background": "Fono spalva",
+                "secondary": "Antrinė spalva",
+                "text": "Teksto spalva",
+                "text-muted": "Nušviesinta teksto spalva",
+                "primary-text": "Pagrindinė teksto spalva",
+                "contrast": "Kontrastinė spalva",
+                "error": "Klaidos spalva",
+                "ring": "Ryšio spalva"
+            }
+        },
+        "language": {
+            "title": "Kalba",
+            "description": "Pakeisti MDT kalbą",
+            "select": "Pasirinkite pageidaujamą kalbą"
+        }
+    },
+    "administration": {
+        "title": "Administracija",
+        "description": "Valdykite pareigūnų laipsnius, visuomenės fondus, darbuotojus, kandidatus ir kameras",
+        "permissions": "Leidimai",
+        "management": "Valdymas",
+        "recruitment": "Atsisakymas",
+        "cameras": "Kameros",
+        "camera-information": "Peržiūrėti daugiau informacijos apie šią kamerą",
+        "select-camera": "Pasirinkite kamerą",
+        "change-position": "Keisti padėtį",
+        "set-position": "Nustatyti padėtį",
+        "open-camera": "Atidaryti kamerą",
+        "delete-camera": "Ištrinti kamerą",
+        "enable-camera": "Įjungti kamerą",
+        "disable-camera": "Išjungti kamerą",
+        "job": {
+            "add-permission": "Pridėti leidimą",
+            "update-permission": "Atnaujinti leidimus",
+            "select-permission": "Pasirinkite leidimą",
+            "grades": {
+                "title": "Laipsnis - {{level}}",
+                "description": "Laipsniai iš \"{{job}}\" darbo",
+                "footer": "Tai taip pat apima ankstesnius leidimus"
+            }
+        },
+        "employees": {
+            "title": "Darbuotojai",
+            "description": "Visų internete esančių darbuotojų sąrašas"
+        },
+        "manage": {
+            "title": "Valdyti \"{{name}}\"",
+            "description": "Peržiūrėkite daugiau informacijos arba taikykite veiksmus šiam darbuotojui",
+            "fire": "Atleisti darbuotoją",
+            "hire": "Samdyti pilietį",
+            "change_rank": "Pakeisti laipsnį",
+            "rank_select": "Pasirinkite laipsnį",
+            "activity": {
+                "title": "Veikla",
+                "description": "Peržiūrėti veiklos statistiką šiam darbuotojui",
+                "chart": "Paskutinės 7 dienos",
+                "table": {
+                    "head": {
+                        "number": "Nr.",
+                        "clock-in": "Prisijungė",
+                        "clock-out": "Atsijungė",
+                        "hours": "Valandos"
+                    },
+                    "total": "Viso valandų"
+                }
+            },
+            "funds": {
+                "header": "Visuomenės fondai",
+                "footer": "pajamos iš baudų"
+            },
+            "employees": {
+                "header": "Darbuotojai",
+                "footer": "viso internete esančių darbuotojų"
+            },
+            "calls": {
+                "header": "Visi skambučiai",
+                "footer": "aktyvūs išsiuntimo skambučiai"
+            }
+        },
+        "recruits": {
+            "description": "Peržiūrėti informaciją apie šį pilietį",
+            "see": "Peržiūrėti piliečio puslapį"
+        }
+    },
+    "forms": {
+        "description": "Užpildykite formą visais būtinais duomenimis",
+        "citizens": "Registruoti pilietį",
+        "vehicles": "Registruoti transporto priemonę",
+        "incidents": "Sukurti įvykį",
+        "evidences": "Sukurti įrodymą",
+        "warrants": "Sukurti paieškos įsakymą",
+        "bolos": "Sukurti BOLO pranešimą",
+        "codes": "Sukurti kodą",
+        "charges": "Sukurti kaltinimą",
+        "weapons": "Registruoti ginklą",
+        "announcements": "Sukurti pranešimą",
+        "cameras": "Sukurti kamerą",
+        "tag": {
+            "title": "Sukurti žymę",
+            "description": "Sukurkite naują žymę šiam įrašui kategorizuoti. Spauskite Sukurti, kad pridėtumėte naują žymę.",
+            "field-name": "Žymės pavadinimas",
+            "field-description": "Žymės aprašymas",
+            "field-color": "Žymės spalva",
+            "button": "Sukurti naują žymę",
+            "notification": {
+                "title": "Žymė sukurta",
+                "description": "Jūs sėkmingai sukūrėte žymę!"
+            }
+        },
+        "errors": {
+            "required": "Šis laukas yra privalomas",
+            "create": "Neturite leidimo sukurti naują įrašą",
+            "min-length": "Šis laukas turi būti bent {{length}} simbolių ilgio",
+            "min-number": "Šio lauko minimali vertė yra {{min}}",
+            "max-number": "Šio lauko maksimali vertė yra {{max}}",
+            "invalid-link": "Jūs turite įvesti galiojantį paveikslėlio URL!",
+            "bolos": {
+                "citizen-vehicle-required": "Jūs privalote pasirinkti pilietį arba transporto priemonę"
+            },
+            "codes": {
+                "format": "Neteisingas formatas, galite naudoti tik skaitmenis"
+            },
+            "warrants": {
+                "citizen-house-required": "Jūs privalote pasirinkti pilietį arba namą"
+            },
+            "evidences": {
+                "fields-required": "Jūs privalote pridėti pilietį, pareigūną, transporto priemonę arba ginklą"
+            },
+            "charges": {
+                "fine-jail-required": "Jūs privalote nustatyti baudos arba kalėjimo sumą"
+            },
+            "cameras": {
+                "prop-required": "Prieš nustatydami poziciją, turite pasirinkti reikiamą savybę"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "Galite pasirinkti dar {{n}} {{word}}",
+            "maximum": "Pasirinkote maksimalų kiekį {{word}}"
+        },
+        "words": {
+            "citizens": "piliečių",
+            "officers": "pareigūnų",
+            "vehicles": "transporto priemonių",
+            "incidents": "įvykių",
+            "evidences": "įrodymų",
+            "charges": "kaltinimų",
+            "evidence_archive": "įrodymų iš archyvo"
+        }
+    },
+    "values": {
+        "title": {
+            "citizen": "Dalyvaujantys piliečiai",
+            "suspect": "Įtariamieji asmenys",
+            "victim": "Aukos",
+            "officer": "Pareigūnai",
+            "vehicle": "Transporto priemonės",
+            "weapon": "Ginklai",
+            "evidence": "Įrodymai",
+            "charge": "Pareigos",
+            "archive": "Archyvo failai",
+            "licenses": "Suteiktos licencijos"
+        },
+        "description": {
+            "template": "Peržiūrėti ir redaguoti {{word}}, priklausančius šiam įrašui",
+            "licenses": "Atšaukti ir suteikti licencijas šiam piliečiui",
+            "citizen-weapon": "Peržiūrėti ir redaguoti šio piliečio ginklus",
+            "citizen-incident": "Peržiūrėti ir redaguoti įvykius, priskirtus šiam piliečiui",
+            "vehicle-incident": "Peržiūrėti ir redaguoti įvykius, priskirtus šiai transporto priemonei",
+            "citizen-evidence": "Peržiūrėti ir redaguoti įrodymus, kuriuose dalyvauja šis pilietis",
+            "citizen-warrant": "Peržiūrėti ir redaguoti paieškas, priskirtas šiam piliečiui",
+            "house-warrant": "Peržiūrėti ir redaguoti paieškas, priskirtas šiai nekilnojamai nuosavybei",
+            "citizen-bolo": "Peržiūrėti ir redaguoti BOLO pranešimus, priskirtus šiam piliečiui",
+            "vehicle-bolo": "Peržiūrėti ir redaguoti BOLO pranešimus, priskirtus šiai transporto priemonei",
+            "citizen-vehicle": "Peržiūrėti transporto priemones, kurias valdo šis pilietis",
+            "citizen-house": "Peržiūrėti nekilnojamąją nuosavybę, kurią valdo šis pilietis",
+            "words": {
+                "citizen": "piliečiai",
+                "suspect": "įtariamieji",
+                "victim": "aukos",
+                "officer": "pareigūnai",
+                "vehicle": "transporto priemonės",
+                "weapon": "ginklai",
+                "evidence": "įrodymai",
+                "charge": "pareigos",
+                "archive": "archyvo failai"
+            }
+        },
+        "add": {
+            "citizen": "Pridėti pilietį",
+            "suspect": "Pridėti įtariamąjį",
+            "victim": "Pridėti auką",
+            "officer": "Pridėti pareigūną",
+            "vehicle": "Pridėti transporto priemonę",
+            "incident": "Pridėti įvykį",
+            "evidence": "Pridėti įrodymą",
+            "warrant": "Pridėti paiešką",
+            "bolo": "Pridėti BOLO pranešimą",
+            "charge": "Pridėti pareigas",
+            "weapon": "Pridėti ginklą",
+            "archive": "Pridėti failą"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Piliečio galerija",
+            "vehicle": "Transporto priemonių galerija",
+            "evidence": "Nuotraukos"
+        },
+        "description": {
+            "citizen": "Peržiūrėti nuotraukas su šiuo piliečiu",
+            "vehicle": "Peržiūrėti nuotraukas su šia transporto priemone",
+            "evidence": "Peržiūrėti nuotraukas, pridėtas prie šio įrodymo"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Peržiūrėti prietaisų skydelio puslapį",
+            "description": "Leidžia vartotojui peržiūrėti prietaisų skydelio puslapį"
+        },
+        "incidents.view": {
+            "label": "Peržiūrėti įvykių puslapį",
+            "description": "Leidžia vartotojui peržiūrėti įvykių puslapį"
+        },
+        "evidences.view": {
+            "label": "Peržiūrėti įrodymų puslapį",
+            "description": "Leidžia vartotojui peržiūrėti įrodymų puslapį"
+        },
+        "warrants.view": {
+            "label": "Peržiūrėti paieškų orderių puslapį",
+            "description": "Leidžia vartotojui peržiūrėti paieškų orderių puslapį"
+        },
+        "officers.view": {
+            "label": "Peržiūrėti pareigūnų puslapį",
+            "description": "Leidžia vartotojui peržiūrėti pareigūnų puslapį"
+        },
+        "bolos.view": {
+            "label": "Peržiūrėti BOLOs puslapį",
+            "description": "Leidžia vartotojui peržiūrėti BOLOs (būti dėmesio centre) puslapį"
+        },
+        "dispatch.view": {
+            "label": "Peržiūrėti išsiuntimo puslapį",
+            "description": "Leidžia vartotojui peržiūrėti išsiuntimo puslapį"
+        },
+        "cameras.view": {
+            "label": "Peržiūrėti kamerų puslapį",
+            "description": "Leidžia vartotojui peržiūrėti kamerų puslapį"
+        },
+        "citizens.view": {
+            "label": "Peržiūrėti piliečių puslapį",
+            "description": "Leidžia vartotojui peržiūrėti piliečių puslapį"
+        },
+        "vehicles.view": {
+            "label": "Peržiūrėti transporto priemonių puslapį",
+            "description": "Leidžia vartotojui peržiūrėti transporto priemonių puslapį"
+        },
+        "houses.view": {
+            "label": "Peržiūrėti namų puslapį",
+            "description": "Leidžia vartotojui peržiūrėti namų puslapį"
+        },
+        "weapons.view": {
+            "label": "Peržiūrėti ginklų puslapį",
+            "description": "Leidžia vartotojui peržiūrėti ginklų puslapį"
+        },
+        "codes.view": {
+            "label": "Peržiūrėti kodų puslapį",
+            "description": "Leidžia vartotojui peržiūrėti kodų puslapį"
+        },
+        "charges.view": {
+            "label": "Peržiūrėti kaltinimų puslapį",
+            "description": "Leidžia vartotojui peržiūrėti kaltinimų puslapį"
+        },
+        "announcements.view": {
+            "label": "Peržiūrėti pranešimų puslapį",
+            "description": "Leidžia vartotojui peržiūrėti pranešimų puslapį"
+        },
+        "config.view": {
+            "label": "Peržiūrėti konfigūracijos puslapį",
+            "description": "Leidžia vartotojui peržiūrėti konfigūracijos puslapį"
+        },
+        "administration.view": {
+            "label": "Peržiūrėti administracijos puslapį",
+            "description": "Leidžia vartotojui peržiūrėti administracijos puslapį"
+        },
+        "incidents.delete": {
+            "label": "Ištrinti įvykius",
+            "description": "Leidžia vartotojui ištrinti įvykius"
+        },
+       "incidents.create": {
+            "label": "Sukurti įvykius",
+            "description": "Leidžia vartotojui kurti naujus įvykius"
+        },
+        "incidents.edit": {
+            "label": "Redaguoti įvykius",
+            "description": "Leidžia vartotojui redaguoti esamus įvykius"
+        },
+        "evidences.delete": {
+            "label": "Ištrinti įrodymus",
+            "description": "Leidžia vartotojui ištrinti įrodymus"
+        },
+        "evidences.create": {
+            "label": "Sukurti įrodymus",
+            "description": "Leidžia vartotojui kurti naujus įrodymus"
+        },
+        "evidences.edit": {
+            "label": "Redaguoti įrodymus",
+            "description": "Leidžia vartotojui redaguoti esamus įrodymus"
+        },
+        "warrants.delete": {
+            "label": "Ištrinti paieškų orderius",
+            "description": "Leidžia vartotojui ištrinti paieškų orderius"
+        },
+        "warrants.create": {
+            "label": "Sukurti paieškų orderius",
+            "description": "Leidžia vartotojui kurti naujus paieškų orderius"
+        },
+        "warrants.edit": {
+            "label": "Redaguoti paieškų orderius",
+            "description": "Leidžia vartotojui redaguoti esamus paieškų orderius"
+        },
+        "bolos.delete": {
+            "label": "Ištrinti BOLOs",
+            "description": "Leidžia vartotojui ištrinti BOLOs (būti dėmesio centre)"
+        },
+        "bolos.create": {
+            "label": "Sukurti BOLOs",
+            "description": "Leidžia vartotojui kurti naujus BOLOs (būti dėmesio centre)"
+        },
+        "bolos.edit": {
+            "label": "Redaguoti BOLOs",
+            "description": "Leidžia vartotojui redaguoti esamus BOLOs (būti dėmesio centre)"
+        },
+        "dispatch.alert.delete": {
+            "label": "Ištrinti išsiuntimo įspėjimus",
+            "description": "Leidžia vartotojui ištrinti išsiuntimo įspėjimus"
+        },
+        "cameras.open": {
+            "label": "Atverti kameras",
+            "description": "Leidžia vartotojui pasiekti ir žiūrėti kameros vaizdą"
+        },
+        "cameras.bodycam.view": {
+            "label": "Žiūrėti kūno kameros vaizdą",
+            "description": "Leidžia vartotojui žiūrėti kūno kameros vaizdą"
+        },
+        "citizens.register": {
+            "label": "Registruoti piliečius",
+            "description": "Leidžia vartotojui registruoti naujus piliečius"
+        },  
+        "citizens.edit": {
+            "label": "Redaguoti piliečius",
+            "description": "Leidžia vartotojui redaguoti esamus piliečius"
+        },
+        "citizens.license.grant": {
+            "label": "Suteikti piliečiams licencijas",
+            "description": "Leidžia vartotojui suteikti licencijas piliečiams"
+        },
+        "citizens.license.revoke": {
+            "label": "Atšaukti piliečiams licencijas",
+            "description": "Leidžia vartotojui atšaukti licencijas piliečiams"
+        },
+        "gallery.edit": {
+            "label": "Redaguoti galeriją",
+            "description": "Leidžia vartotojui redaguoti galerijos turinį"
+        },
+        "vehicles.register": {
+            "label": "Registruoti transporto priemones",
+            "description": "Leidžia vartotojui registruoti naujas transporto priemones"
+        },
+        "vehicles.edit": {
+            "label": "Redaguoti transporto priemones",
+            "description": "Leidžia vartotojui redaguoti esamas transporto priemones"
+        },
+        "houses.edit": {
+            "label": "Redaguoti namus",
+            "description": "Leidžia vartotojui redaguoti esamus namus"
+        },
+        "weapons.register": {
+            "label": "Registruoti ginklus",
+            "description": "Leidžia vartotojui registruoti naujus ginklus"
+        },
+        "weapons.edit": {
+            "label": "Redaguoti ginklus",
+            "description": "Leidžia vartotojui redaguoti esamus ginklus"
+        },
+        "codes.delete": {
+            "label": "Ištrinti kodus",
+            "description": "Leidžia vartotojui ištrinti kodus"
+        },
+        "codes.create": {
+            "label": "Sukurti kodus",
+            "description": "Leidžia vartotojui kurti naujus kodus"
+        },
+        "codes.edit": {
+            "label": "Redaguoti kodus",
+            "description": "Leidžia vartotojui redaguoti esamus kodus"
+        },
+        "charges.delete": {
+            "label": "Ištrinti mokesčius",
+            "description": "Leidžia vartotojui ištrinti mokesčius"
+        },
+        "charges.create": {
+            "label": "Sukurti mokesčius",
+            "description": "Leidžia vartotojui kurti naujus mokesčius"
+        },
+        "charges.edit": {
+            "label": "Redaguoti mokesčius",
+            "description": "Leidžia vartotojui redaguoti esamus mokesčius"
+        },
+        "announcements.create": {
+            "label": "Kurti skelbimus",
+            "description": "Leidžia vartotojui kurti naujus skelbimus"
+        },
+        "announcements.delete": {
+            "label": "Ištrinti skelbimus",
+            "description": "Leidžia vartotojui ištrinti skelbimus"
+        },
+        "announcements.pin": {
+            "label": "Prisegti skelbimus",
+            "description": "Leidžia vartotojui prisegti skelbimus"
+        },
+        "announcements.edit": {
+            "label": "Redaguoti skelbimus",
+            "description": "Leidžia vartotojui redaguoti esamus skelbimus"
+        },
+        "administration.permissions.update": {
+            "label": "Atnaujinti leidimus",
+            "description": "Leidžia vartotojui atnaujinti leidimus administravimo skydelyje"
+        },
+        "administration.management.employee.view": {
+            "label": "Peržiūrėti darbuotojų valdymą",
+            "description": "Leidžia vartotojui peržiūrėti darbuotojų valdymą administravimo skydelyje"
+        },
+        "administration.management.employee.fire": {
+            "label": "Atleisti darbuotoją",
+            "description": "Leidžia vartotojui atleisti darbuotoją"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Pakeisti darbuotojo laipsnį",
+            "description": "Leidžia vartotojui pakeisti darbuotojo laipsnį"
+        },
+        "administration.recruit.view": {
+            "label": "Peržiūrėti naujokų valdymą",
+            "description": "Leidžia vartotojui peržiūrėti naujokų valdymą administravimo skydelyje"
+        },
+        "administration.recruit.hire": {
+            "label": "Samdyti naujaką",
+            "description": "Leidžia vartotojui samdyti naujaką"
+        },
+        "administration.camera.view": {
+            "label": "Peržiūrėti kameros valdymą",
+            "description": "Leidžia vartotojui peržiūrėti kameros valdymą administravimo skydelyje"
+        },
+        "administration.camera.create": {
+            "label": "Sukurti kamerą",
+            "description": "Leidžia vartotojui sukurti naują kamerą"
+        },
+        "administration.camera.delete": {
+            "label": "Ištrinti kamerą",
+            "description": "Leidžia vartotojui ištrinti kamerą"
+        },
+        "administration.camera.toggle": {
+            "label": "Perjungti kamerą",
+            "description": "Leidžia vartotojui perjungti kameros būseną"
+        }        
+    }
+}
